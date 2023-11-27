@@ -2,16 +2,15 @@
 @inject TMDBClient TMDB
 
 
-<h3>Movie</h3>
 @if (movieDetails is null)
 {
-    <p><em>Loading...</em></p>
+    <p><em>Loading the movie...</em></p>
 }
 else
 {
     <h1>@movieDetails.Title</h1>
     <p>@movieDetails.Overview</p>
-
+    
 }
 
 @code {
