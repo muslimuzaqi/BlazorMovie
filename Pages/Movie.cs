@@ -1,6 +1,6 @@
-﻿namespace BlazorMovieLive.Pages
-{
-    public class Movie
-    {
-    }
-}
+﻿//namespace BlazorMovieLive.Pages
+//{
+//    public class Movie
+//    {
+//    }
+//}
