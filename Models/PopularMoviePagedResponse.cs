@@ -11,7 +11,7 @@ namespace BlazorMovieLive.Models
         public IEnumerable<PopularMovie> Results { get; set; } = [];
 
         [JsonPropertyName("total_pages")]
-        public int Total_pages { get; set; }
+        public int TotalPages { get; set; }
 
         [JsonPropertyName("total_results")]
         public int TotalResults { get; set; }
